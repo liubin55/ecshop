@@ -1,0 +1,416 @@
+[ 2019-07-29T07:04:38+08:00 ] 172.17.20.138 47.101.198.80 GET /
+[ log ] ecshop.nichousha.xyz/ [运行时间：0.010414s][吞吐率：96.03req/s] [内存消耗：723.61kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'ecshop.nichousha.xyz',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/ecshoptp5/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/index/index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000312s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.000180s ]
+
+---------------------------------------------------------------
+[ 2019-07-29T08:22:04+08:00 ] 172.17.20.138 139.224.116.230 GET /index.php
+[ log ] ecshop.nichousha.xyz/index.php [运行时间：0.017182s][吞吐率：58.20req/s] [内存消耗：723.63kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'ecshop.nichousha.xyz',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/ecshoptp5/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/index/index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000282s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.003808s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.001003s ]
+
+---------------------------------------------------------------
+[ 2019-07-29T08:22:04+08:00 ] 172.17.20.138 139.224.116.230 GET /index.php/goods/goodslist.html?cate_id=25
+[ log ] ecshop.nichousha.xyz/index.php/goods/goodslist.html?cate_id=25 [运行时间：0.022273s][吞吐率：44.90req/s] [内存消耗：732.21kb] [文件加载：61]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'ecshop.nichousha.xyz',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '25',
+)
+[ info ] [ RUN ] app\index\controller\Goods->goodsList[ /data/wwwroot/default/ecshoptp5/application/index/controller/Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/goods/goodslist.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'goods_id',
+  4 => 'cartCount',
+  5 => 'cartInfo',
+  6 => 'priceNum',
+  7 => 'cate_name',
+  8 => 'son_name',
+  9 => 'brandInfo',
+  10 => 'priceInfo',
+  11 => 'count',
+  12 => 'goodsInfo',
+  13 => 'str',
+  14 => 'historyInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000300s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.005847s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_hide` [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_hide` WHERE  `user_id` = null [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SELECT `cate_name` FROM `shop_category` WHERE  `cate_id` = 25 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT `cate_name` FROM `shop_category` WHERE  `pid` = 25 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.002965s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (26,28,56,57,58,59) [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (70,63,64,65,66,67,68,69) [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SELECT max(self_price) FROM `shop_goods` WHERE  `cate_id` IN (26,28,56,57,58,59) LIMIT 1 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (26,28,56,57,58,59) ORDER BY `goods_num`  desc LIMIT 0,8 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  `cate_id` IN (26,28,56,57,58,59) LIMIT 1 [ RunTime:0.000136s ]
+
+---------------------------------------------------------------
+[ 2019-07-29T08:24:32+08:00 ] 172.17.20.138 106.14.204.78 GET /index.php/goods/goodslist.html?cate_id=2
+[ log ] ecshop.nichousha.xyz/index.php/goods/goodslist.html?cate_id=2 [运行时间：0.015223s][吞吐率：65.69req/s] [内存消耗：729.90kb] [文件加载：61]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'ecshop.nichousha.xyz',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Goods->goodsList[ /data/wwwroot/default/ecshoptp5/application/index/controller/Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/goods/goodslist.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'goods_id',
+  4 => 'cartCount',
+  5 => 'cartInfo',
+  6 => 'priceNum',
+  7 => 'cate_name',
+  8 => 'son_name',
+  9 => 'brandInfo',
+  10 => 'priceInfo',
+  11 => 'count',
+  12 => 'goodsInfo',
+  13 => 'str',
+  14 => 'historyInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_hide` [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_hide` WHERE  `user_id` = null [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `cate_name` FROM `shop_category` WHERE  `cate_id` = 2 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `cate_name` FROM `shop_category` WHERE  `pid` = 2 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (7,16,60,8,17) [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (40,46,43,44,45,39,42) [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT max(self_price) FROM `shop_goods` WHERE  `cate_id` IN (7,16,60,8,17) LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (7,16,60,8,17) ORDER BY `goods_num`  desc LIMIT 0,8 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  `cate_id` IN (7,16,60,8,17) LIMIT 1 [ RunTime:0.000127s ]
+
+---------------------------------------------------------------
+[ 2019-07-29T08:30:19+08:00 ] 172.17.20.138 101.132.188.111 GET /index.php/cart/cartlist.html
+[ log ] ecshop.nichousha.xyz/index.php/cart/cartlist.html [运行时间：0.008592s][吞吐率：116.39req/s] [内存消耗：597.17kb] [文件加载：57]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'ecshop.nichousha.xyz',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cart->cartList[ /data/wwwroot/default/ecshoptp5/application/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/cart/cartlist.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000177s ]
+
+---------------------------------------------------------------
+[ 2019-07-29T09:39:23+08:00 ] 172.17.20.138 101.132.98.159 GET /index.php/goods/goodslist.html?cate_id=4
+[ log ] ecshop.nichousha.xyz/index.php/goods/goodslist.html?cate_id=4 [运行时间：0.012013s][吞吐率：83.24req/s] [内存消耗：731.65kb] [文件加载：61]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'ecshop.nichousha.xyz',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '4',
+)
+[ info ] [ RUN ] app\index\controller\Goods->goodsList[ /data/wwwroot/default/ecshoptp5/application/index/controller/Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/goods/goodslist.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'goods_id',
+  4 => 'cartCount',
+  5 => 'cartInfo',
+  6 => 'priceNum',
+  7 => 'cate_name',
+  8 => 'son_name',
+  9 => 'brandInfo',
+  10 => 'priceInfo',
+  11 => 'count',
+  12 => 'goodsInfo',
+  13 => 'str',
+  14 => 'historyInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000310s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_hide` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_hide` WHERE  `user_id` = null [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT `cate_name` FROM `shop_category` WHERE  `cate_id` = 4 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT `cate_name` FROM `shop_category` WHERE  `pid` = 4 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `shop_goods` WHERE  `cate_id` IN (11,20,12,21) [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` WHERE  `brand_id` IN (55,56,57,58,60,96,59,61,62) [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT max(self_price) FROM `shop_goods` WHERE  `cate_id` IN (11,20,12,21) LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (11,20,12,21) ORDER BY `goods_num`  desc LIMIT 0,8 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE  `cate_id` IN (11,20,12,21) LIMIT 1 [ RunTime:0.000109s ]
+
+---------------------------------------------------------------
+[ 2019-07-29T20:50:02+08:00 ] 172.17.20.138 106.39.13.237 HEAD /
+[ log ] ecshop.nichousha.xyz/ [运行时间：0.009520s][吞吐率：105.04req/s] [内存消耗：724.11kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'useragent' => 'Mozilla/5.0 (Linux; Android 8.0.0; SM-G9650 Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.83 Mobile Safari/537.36 T7/10.10 lite baiduboxapp/3.5.5.10 (Baidu; P1 8.0.0)',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.22.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => 'ecshop.nichousha.xyz',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/ecshoptp5/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/index/index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.000198s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,23 @@
+<div style="padding: 15px;">
+<a href="{:url('Admin/adminList')}" class="layui-btn">返回列表</a>
+<table class="layui-table">
+  <thead>
+    <tr>
+      <th>管理员名称</th>
+      <th>管理员邮箱</th>
+      <th>管理员电话</th>
+      <th>管理员添加时间</th>
+      <th>管理员更新时间</th>
+    </tr> 
+  </thead>
+  <tbody>
+    <tr>
+      <td>{$data.admin_name}</td>
+      <td>{$data.admin_email}</td>
+      <td>{$data.admin_tel}</td>
+      <td>{$data.create_time}</td>
+      <td>{$data.update_time}</td>
+    </tr>
+  </tbody>
+</table>
+</div>

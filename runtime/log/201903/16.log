@@ -1,0 +1,1936 @@
+[ 2019-03-16T10:02:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.ecshoptp5.com/ [运行时间：1.414069s][吞吐率：0.71req/s] [内存消耗：2,591.82kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.099165s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.043454s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.045831s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.001596s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.ecshoptp5.com/ [运行时间：1.643337s][吞吐率：0.61req/s] [内存消耗：2,620.00kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103890s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.057262s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.003147s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.001902s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.033003s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.007097s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php
+[ log ] www.ecshoptp5.com/admin.php [运行时间：0.111074s][吞吐率：9.00req/s] [内存消耗：1,488.16kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/login/login.html
+[ log ] www.ecshoptp5.com/admin.php/login/login.html [运行时间：0.090840s][吞吐率：11.01req/s] [内存消耗：1,506.02kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/captcha.html
+[ log ] www.ecshoptp5.com/admin.php/captcha.html [运行时间：0.329197s][吞吐率：3.04req/s] [内存消耗：1,286.87kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/login/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/login/login.html
+[ log ] www.ecshoptp5.com/admin.php/login/login.html [运行时间：0.317172s][吞吐率：3.15req/s] [内存消耗：2,302.89kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'index',
+  'admin_pwd' => '111111',
+  'code' => 'ckiq',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004835s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_admin` [ RunTime:0.078268s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_admin` WHERE  `admin_name` = 'index' LIMIT 1 [ RunTime:0.001875s ]
+[ sql ] [ SQL ] UPDATE `shop_admin`  SET `error_time`=NULL,`error_num`='0'  WHERE  `admin_id` = 19 [ RunTime:0.005763s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/index.html
+[ log ] www.ecshoptp5.com/admin.php/index/index.html [运行时间：0.295232s][吞吐率：3.39req/s] [内存消耗：1,612.62kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.326200s][吞吐率：3.07req/s] [内存消耗：2,676.97kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodsadd.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005596s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.037965s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.052005s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000644s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:47+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsuploadimgs.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsuploadimgs.html [运行时间：0.094668s][吞吐率：10.56req/s] [内存消耗：1,509.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsuploadimgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3VfOegILqeA8yJfz',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '36259',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUploadImgs[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:14:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsunique.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsunique.html [运行时间：0.245980s][吞吐率：4.07req/s] [内存消耗：2,277.57kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsunique',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '天使',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUnique[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008188s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.077610s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `goods_name` = '天使' LIMIT 1 [ RunTime:0.002132s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:15:28+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsunique.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsunique.html [运行时间：0.092701s][吞吐率：10.79req/s] [内存消耗：2,277.57kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsunique',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '天使',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUnique[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004369s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.033129s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `goods_name` = '天使' LIMIT 1 [ RunTime:0.001721s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:15:29+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.116134s][吞吐率：8.61req/s] [内存消耗：2,241.65kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '215',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '天使',
+  'self_price' => '998',
+  'market_price' => '998',
+  'is_up' => '1',
+  'is_new' => '1',
+  'goods_num' => '1',
+  'goods_score' => '1',
+  'file' => '',
+  'goods_img' => '20190316\\b982581dfd592297d691299ad2964937.jpg',
+  'goods_imgs' => '',
+  'cate_id' => '53',
+  'brand_id' => '72',
+  'goods_desc' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004432s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.031714s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_goods` WHERE  `goods_name` = '天使' LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`goods_name` , `self_price` , `market_price` , `is_up` , `is_new` , `goods_num` , `goods_score` , `goods_img` , `goods_imgs` , `cate_id` , `brand_id` , `goods_desc` , `update_time` , `create_time`) VALUES ('天使' , 998 , 998 , 1 , 1 , 1 , 1 , '20190316\\b982581dfd592297d691299ad2964937.jpg' , '' , 53 , 72 , '' , 1552713328 , 1552713328) [ RunTime:0.016378s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:15:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.153900s][吞吐率：6.50req/s] [内存消耗：2,526.77kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodsadd.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005507s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.040085s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.035918s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000702s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:15:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsuploadimgs.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsuploadimgs.html [运行时间：0.131848s][吞吐率：7.58req/s] [内存消耗：1,509.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsuploadimgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxzZTLDCAFmSBwDOD',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '299064',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUploadImgs[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsunique.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsunique.html [运行时间：0.213599s][吞吐率：4.68req/s] [内存消耗：2,277.57kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsunique',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '忍者',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUnique[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100831s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.032115s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `goods_name` = '忍者' LIMIT 1 [ RunTime:0.000955s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.109459s][吞吐率：9.14req/s] [内存消耗：2,241.65kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '215',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '忍者',
+  'self_price' => '998',
+  'market_price' => '998',
+  'is_up' => '1',
+  'is_new' => '1',
+  'goods_num' => '1',
+  'goods_score' => '1',
+  'file' => '',
+  'goods_img' => '20190316\\3373a93f5aa031aa1298719bc72700b6.jpg',
+  'goods_imgs' => '',
+  'cate_id' => '53',
+  'brand_id' => '84',
+  'goods_desc' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005054s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.034487s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_goods` WHERE  `goods_name` = '忍者' LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`goods_name` , `self_price` , `market_price` , `is_up` , `is_new` , `goods_num` , `goods_score` , `goods_img` , `goods_imgs` , `cate_id` , `brand_id` , `goods_desc` , `update_time` , `create_time`) VALUES ('忍者' , 998 , 998 , 1 , 1 , 1 , 1 , '20190316\\3373a93f5aa031aa1298719bc72700b6.jpg' , '' , 53 , 84 , '' , 1552713380 , 1552713380) [ RunTime:0.008201s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.140328s][吞吐率：7.13req/s] [内存消耗：2,526.77kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodsadd.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005104s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.027888s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028449s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000632s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:27+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsuploadimgs.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsuploadimgs.html [运行时间：0.088177s][吞吐率：11.34req/s] [内存消耗：1,509.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsuploadimgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu9KTJdh9t87QZNYQ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '139891',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUploadImgs[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:49+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsunique.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsunique.html [运行时间：0.116326s][吞吐率：8.60req/s] [内存消耗：2,277.57kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsunique',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '男装',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUnique[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004885s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.033229s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `goods_name` = '男装' LIMIT 1 [ RunTime:0.000922s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:49+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.091154s][吞吐率：10.97req/s] [内存消耗：2,241.65kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '216',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '男装',
+  'self_price' => '998',
+  'market_price' => '998',
+  'is_up' => '1',
+  'is_new' => '1',
+  'goods_num' => '1',
+  'goods_score' => '1',
+  'file' => '',
+  'goods_img' => '20190316\\3db2b236e4e5706bf8c806ab15031ff3.jpeg',
+  'goods_imgs' => '',
+  'cate_id' => '53',
+  'brand_id' => '77',
+  'goods_desc' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006472s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.027042s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_goods` WHERE  `goods_name` = '男装' LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`goods_name` , `self_price` , `market_price` , `is_up` , `is_new` , `goods_num` , `goods_score` , `goods_img` , `goods_imgs` , `cate_id` , `brand_id` , `goods_desc` , `update_time` , `create_time`) VALUES ('男装' , 998 , 998 , 1 , 1 , 1 , 1 , '20190316\\3db2b236e4e5706bf8c806ab15031ff3.jpeg' , '' , 53 , 77 , '' , 1552713409 , 1552713409) [ RunTime:0.007464s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodslist.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodslist.html [运行时间：0.250107s][吞吐率：4.00req/s] [内存消耗：2,660.53kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsList[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodslist.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005776s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.031722s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.032350s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000787s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:16:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=1&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=1&limit=3 [运行时间：0.093874s][吞吐率：10.65req/s] [内存消耗：2,269.82kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005227s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.032635s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 0,3 [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.003240s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:17:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.149347s][吞吐率：6.70req/s] [内存消耗：2,526.77kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodsadd.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005360s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.036740s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.029315s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000615s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:17:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsuploadimgs.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsuploadimgs.html [运行时间：0.131636s][吞吐率：7.60req/s] [内存消耗：1,509.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsuploadimgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxKsJjxnJ6cnTlU2C',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '291168',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUploadImgs[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:18:03+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsunique.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsunique.html [运行时间：0.096615s][吞吐率：10.35req/s] [内存消耗：2,277.57kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsunique',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '公主',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUnique[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004936s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.032595s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `goods_name` = '公主' LIMIT 1 [ RunTime:0.000898s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:18:03+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.093132s][吞吐率：10.74req/s] [内存消耗：2,241.65kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '215',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '公主',
+  'self_price' => '998',
+  'market_price' => '998',
+  'is_up' => '1',
+  'is_new' => '1',
+  'goods_num' => '1',
+  'goods_score' => '1',
+  'file' => '',
+  'goods_img' => '20190316\\eb206a893d01fef53978365bb851c946.jpg',
+  'goods_imgs' => '',
+  'cate_id' => '53',
+  'brand_id' => '74',
+  'goods_desc' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006563s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.025021s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_goods` WHERE  `goods_name` = '公主' LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`goods_name` , `self_price` , `market_price` , `is_up` , `is_new` , `goods_num` , `goods_score` , `goods_img` , `goods_imgs` , `cate_id` , `brand_id` , `goods_desc` , `update_time` , `create_time`) VALUES ('公主' , 998 , 998 , 1 , 1 , 1 , 1 , '20190316\\eb206a893d01fef53978365bb851c946.jpg' , '' , 53 , 74 , '' , 1552713483 , 1552713483) [ RunTime:0.004750s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:18:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.154392s][吞吐率：6.48req/s] [内存消耗：2,526.77kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodsadd.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005113s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.046421s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.028120s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000671s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:18:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsuploadimgs.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsuploadimgs.html [运行时间：0.270146s][吞吐率：3.70req/s] [内存消耗：1,509.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsuploadimgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryi4zkiHUhYIx6DO4r',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '240563',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUploadImgs[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-16T13:18:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsunique.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsunique.html [运行时间：0.102029s][吞吐率：9.80req/s] [内存消耗：2,277.57kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsunique',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => '*/*',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '青蛙',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsUnique[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006138s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.038600s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `goods_name` = '青蛙' LIMIT 1 [ RunTime:0.000885s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:18:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/goods/goodsadd.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsadd.html [运行时间：0.092379s][吞吐率：10.82req/s] [内存消耗：2,241.65kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.ecshoptp5.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '215',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_name' => '青蛙',
+  'self_price' => '998',
+  'market_price' => '998',
+  'is_up' => '1',
+  'is_new' => '1',
+  'goods_num' => '1',
+  'goods_score' => '1',
+  'file' => '',
+  'goods_img' => '20190316\\3100769ce26c80c68f8ab417a00f9f82.jpg',
+  'goods_imgs' => '',
+  'cate_id' => '53',
+  'brand_id' => '79',
+  'goods_desc' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsAdd[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004966s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.023248s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_goods` WHERE  `goods_name` = '青蛙' LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`goods_name` , `self_price` , `market_price` , `is_up` , `is_new` , `goods_num` , `goods_score` , `goods_img` , `goods_imgs` , `cate_id` , `brand_id` , `goods_desc` , `update_time` , `create_time`) VALUES ('青蛙' , 998 , 998 , 1 , 1 , 1 , 1 , '20190316\\3100769ce26c80c68f8ab417a00f9f82.jpg' , '' , 53 , 79 , '' , 1552713536 , 1552713536) [ RunTime:0.008359s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodslist.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodslist.html [运行时间：0.175911s][吞吐率：5.68req/s] [内存消耗：2,522.40kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodsadd.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsList[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodslist.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006721s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.035454s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.039360s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000748s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=1&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=1&limit=3 [运行时间：0.093042s][吞吐率：10.75req/s] [内存消耗：2,269.82kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004836s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.029158s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 0,3 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.002018s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=43&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=43&limit=3 [运行时间：0.096514s][吞吐率：10.36req/s] [内存消耗：2,269.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '43',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004668s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.033010s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 126,3 [ RunTime:0.002259s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.001919s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=42&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=42&limit=3 [运行时间：0.106985s][吞吐率：9.35req/s] [内存消耗：2,269.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '42',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004788s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.045224s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 123,3 [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.000807s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=41&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=41&limit=3 [运行时间：0.197823s][吞吐率：5.06req/s] [内存消耗：2,269.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '41',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094972s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.032178s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 120,3 [ RunTime:0.001732s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.001501s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=40&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=40&limit=3 [运行时间：0.109303s][吞吐率：9.15req/s] [内存消耗：2,269.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '40',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004490s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.022442s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 117,3 [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.000945s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=39&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=39&limit=3 [运行时间：0.106425s][吞吐率：9.40req/s] [内存消耗：2,269.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '39',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004547s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.037483s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 114,3 [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.000998s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodslist.html
+[ log ] www.ecshoptp5.com/admin.php/goods/goodslist.html [运行时间：0.175038s][吞吐率：5.71req/s] [内存消耗：2,522.40kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsList[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/admin\view\goods\goodslist.html [ array (
+  0 => 'cateInfo',
+  1 => 'brandInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005616s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.036999s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_brand` [ RunTime:0.031341s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_brand` [ RunTime:0.000641s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=1&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=1&limit=3 [运行时间：0.091458s][吞吐率：10.93req/s] [内存消耗：2,269.82kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004917s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.031047s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 0,3 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.001469s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=2&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=2&limit=3 [运行时间：0.094323s][吞吐率：10.60req/s] [内存消耗：2,269.51kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004270s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.030091s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 3,3 [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.000863s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=3&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=3&limit=3 [运行时间：0.094311s][吞吐率：10.60req/s] [内存消耗：2,269.51kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005477s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.031141s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 6,3 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.000915s ]
+
+---------------------------------------------------------------
+[ 2019-03-16T13:19:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/goodsinfo.html?page=43&limit=3
+[ log ] www.ecshoptp5.com/admin.php/goods/goodsinfo.html?page=43&limit=3 [运行时间：0.078033s][吞吐率：12.82req/s] [内存消耗：2,269.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'goodsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=28onm22jil8ll9om44rfdc8urt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.ecshoptp5.com/admin.php/goods/goodslist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '43',
+  'limit' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->goodsInfo[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005212s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.023860s ]
+[ sql ] [ SQL ] SELECT `g`.*,`c`.`cate_name`,`b`.`brand_name` FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 126,3 [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_goods` `g` INNER JOIN `shop_category` `c` ON `g`.`cate_id`=`c`.`cate_id` INNER JOIN `shop_brand` `b` ON `g`.`brand_id`=`b`.`brand_id` LIMIT 1 [ RunTime:0.000795s ]
+
+---------------------------------------------------------------

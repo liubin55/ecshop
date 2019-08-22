@@ -1,0 +1,4262 @@
+[ 2018-12-28T18:08:52+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.899232s][吞吐率：1.11req/s] [内存消耗：1,128.65kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:11:01+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.226012s][吞吐率：4.42req/s] [内存消耗：1,160.92kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ';'[D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php:9]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:11:31+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.094895s][吞吐率：10.54req/s] [内存消耗：1,163.41kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant “1” - assumed '“1”'[D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php:8]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:11:43+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.043011s][吞吐率：23.25req/s] [内存消耗：1,128.02kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:12:01+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.250701s][吞吐率：3.99req/s] [内存消耗：1,330.61kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:19:48+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.202117s][吞吐率：4.95req/s] [内存消耗：1,454.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:20:01+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.069291s][吞吐率：14.43req/s] [内存消耗：1,454.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:24:54+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.085539s][吞吐率：11.69req/s] [内存消耗：1,342.52kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:26:53+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.047356s][吞吐率：21.12req/s] [内存消耗：1,342.52kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:28:41+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.082595s][吞吐率：12.11req/s] [内存消耗：1,454.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:30:06+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.058508s][吞吐率：17.09req/s] [内存消耗：1,342.52kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:34:41+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.079519s][吞吐率：12.58req/s] [内存消耗：1,454.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:34:52+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.073053s][吞吐率：13.69req/s] [内存消耗：1,342.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:36:47+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.062259s][吞吐率：16.06req/s] [内存消耗：1,341.99kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:36:52+08:00 ] ::1 ::1 GET /tp5.1/public/
+[ log ] localhost/tp5.1/public/ [运行时间：0.051718s][吞吐率：19.34req/s] [内存消耗：1,342.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:37:07+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.045407s][吞吐率：22.02req/s] [内存消耗：1,342.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:37:18+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/app
+[ log ] localhost/tp5.1/public/index.php/index/admin/app [运行时间：0.205862s][吞吐率：4.86req/s] [内存消耗：1,354.96kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'app',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:37:26+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/add
+[ log ] localhost/tp5.1/public/index.php/index/admin/add [运行时间：0.046916s][吞吐率：21.31req/s] [内存消耗：1,323.67kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:37:39+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.037209s][吞吐率：26.88req/s] [内存消耗：1,342.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:37:40+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.047724s][吞吐率：20.95req/s] [内存消耗：1,324.51kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => '',
+  'a_pwd' => '',
+)
+[ info ] [ RUN ] app\index\controller\Admin->add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:37:58+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.045108s][吞吐率：22.17req/s] [内存消耗：1,324.51kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => '',
+  'a_pwd' => '',
+)
+[ info ] [ RUN ] app\index\controller\Admin->add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:38:18+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.045551s][吞吐率：21.95req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:38:22+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.044589s][吞吐率：22.43req/s] [内存消耗：1,161.39kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '61',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '1111@qq.com',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:9]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:39:06+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.069039s][吞吐率：14.48req/s] [内存消耗：1,347.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '61',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '1111@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:43:13+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.187873s][吞吐率：5.32req/s] [内存消耗：2,049.12kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '61',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '1111@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:44:30+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.232075s][吞吐率：4.31req/s] [内存消耗：2,076.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '61',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '1111@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077953s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.060461s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd`) VALUES ('root' , '1111@qq.com') [ RunTime:0.000706s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:45:17+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.098271s][吞吐率：10.18req/s] [内存消耗：2,076.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '61',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '1111@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003494s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.034961s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd`) VALUES ('root' , '1111@qq.com') [ RunTime:0.000399s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:45:27+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.057328s][吞吐率：17.44req/s] [内存消耗：1,453.81kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:45:50+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.106136s][吞吐率：9.42req/s] [内存消耗：2,077.48kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003420s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035342s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '111' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000409s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:53:15+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.176810s][吞吐率：5.66req/s] [内存消耗：2,077.89kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.066474s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.039375s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '111' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000422s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:53:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.037260s][吞吐率：26.84req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:53:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.066258s][吞吐率：15.09req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:53:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.053522s][吞吐率：18.68req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T18:53:53+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.100388s][吞吐率：9.96req/s] [内存消耗：2,077.89kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003396s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035453s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '111' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000560s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T18:55:23+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.116529s][吞吐率：8.58req/s] [内存消耗：2,078.01kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->Add[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003202s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.040110s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '698d51a19d8a121ce581499d7b701668' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000591s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/add
+[ log ] localhost/tp5.1/public/index.php/index/admin/add [运行时间：0.214090s][吞吐率：4.67req/s] [内存消耗：1,356.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/add
+[ log ] localhost/tp5.1/public/index.php/index/admin/add [运行时间：0.063839s][吞吐率：15.66req/s] [内存消耗：1,356.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:51+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.157576s][吞吐率：6.35req/s] [内存消耗：1,453.81kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:51+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.039390s][吞吐率：25.39req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:51+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.041037s][吞吐率：24.37req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:51+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.042462s][吞吐率：23.55req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:51+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index
+[ log ] localhost/tp5.1/public/index.php/index/index/index [运行时间：0.036355s][吞吐率：27.51req/s] [内存消耗：1,342.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:01:58+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.234451s][吞吐率：4.27req/s] [内存消耗：2,238.14kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '123',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064406s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.050373s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '202cb962ac59075b964b07152d234b70' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000492s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:02:01+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/url('_admin/addlist').html
+[ log ] localhost/tp5.1/public/index.php/index/url('_admin/addlist').html [运行时间：0.036128s][吞吐率：27.68req/s] [内存消耗：1,158.81kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'url(\'_admin',
+    2 => 'addlist\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:02:49+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/url('_admin/addlist').html
+[ log ] localhost/tp5.1/public/index.php/index/url('_admin/addlist').html [运行时间：0.035345s][吞吐率：28.29req/s] [内存消耗：1,159.09kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'url(\'_admin',
+    2 => 'addlist\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:03:16+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/url('_admin/addlist').html
+[ log ] localhost/tp5.1/public/index.php/index/url('_admin/addlist').html [运行时间：0.038133s][吞吐率：26.22req/s] [内存消耗：1,159.09kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'url(\'_admin',
+    2 => 'addlist\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:03:18+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/url('_admin/addlist').html
+[ log ] localhost/tp5.1/public/index.php/index/url('_admin/addlist').html [运行时间：0.034456s][吞吐率：29.02req/s] [内存消耗：1,159.09kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'url(\'_admin',
+    2 => 'addlist\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:03:20+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/url('_admin/addlist').html
+[ log ] localhost/tp5.1/public/index.php/index/url('_admin/addlist').html [运行时间：0.042726s][吞吐率：23.40req/s] [内存消耗：1,159.09kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'url(\'_admin',
+    2 => 'addlist\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:03:25+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/url('_admin/addlist').html
+[ log ] localhost/tp5.1/public/index.php/index/url('_admin/addlist').html [运行时间：0.035330s][吞吐率：28.30req/s] [内存消耗：1,158.81kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'url(\'_admin',
+    2 => 'addlist\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:03:31+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.101609s][吞吐率：9.84req/s] [内存消耗：2,124.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003352s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.039072s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '698d51a19d8a121ce581499d7b701668' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000487s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:03:34+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.054896s][吞吐率：18.22req/s] [内存消耗：1,363.03kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:04:05+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.055542s][吞吐率：18.00req/s] [内存消耗：1,363.31kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:05:48+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.057863s][吞吐率：17.28req/s] [内存消耗：1,443.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:09:30+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.199029s][吞吐率：5.02req/s] [内存消耗：2,125.35kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.065335s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.053323s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '698d51a19d8a121ce581499d7b701668' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000414s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:09:33+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.097655s][吞吐率：10.24req/s] [内存消耗：2,122.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003321s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.032968s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000541s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:10:57+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.116581s][吞吐率：8.58req/s] [内存消耗：2,234.78kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002908s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.033972s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000550s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:11:00+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.095379s][吞吐率：10.48req/s] [内存消耗：2,123.37kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002941s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.034570s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000491s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:12:22+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.142234s][吞吐率：7.03req/s] [内存消耗：2,234.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004369s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.037899s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000524s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:12:44+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.117924s][吞吐率：8.48req/s] [内存消耗：2,234.95kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002897s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035257s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000486s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:12:52+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/url('addDel')?a_id=7
+[ log ] localhost/tp5.1/public/index.php/index/admin/url('addDel')?a_id=7 [运行时间：0.046947s][吞吐率：21.30req/s] [内存消耗：1,357.98kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'url(\'addDel\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '7',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:13:22+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/url('addDel')?a_id=7
+[ log ] localhost/tp5.1/public/index.php/index/admin/url('addDel')?a_id=7 [运行时间：0.048229s][吞吐率：20.73req/s] [内存消耗：1,358.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'url(\'addDel\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '7',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:13:24+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.105458s][吞吐率：9.48req/s] [内存消耗：2,123.98kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003178s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.047054s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000521s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:13:25+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/url('addDel')?a_id=7
+[ log ] localhost/tp5.1/public/index.php/index/admin/url('addDel')?a_id=7 [运行时间：0.051699s][吞吐率：19.34req/s] [内存消耗：1,358.56kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'url(\'addDel\')',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '7',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:14:09+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.116525s][吞吐率：8.58req/s] [内存消耗：2,276.69kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003427s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035108s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000473s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:14:09+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=7
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=7 [运行时间：0.039518s][吞吐率：25.30req/s] [内存消耗：1,327.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:14:12+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=8
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=8 [运行时间：0.042053s][吞吐率：23.78req/s] [内存消耗：1,327.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '8',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:14:14+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=9
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=9 [运行时间：0.045378s][吞吐率：22.04req/s] [内存消耗：1,327.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '9',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:15:10+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.108396s][吞吐率：9.23req/s] [内存消耗：2,165.52kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002846s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035791s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000594s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:15:10+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=7
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=7 [运行时间：0.038429s][吞吐率：26.02req/s] [内存消耗：1,349.92kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:15:12+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=8
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=8 [运行时间：0.038689s][吞吐率：25.85req/s] [内存消耗：1,349.92kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '8',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:15:14+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=9
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=9 [运行时间：0.036804s][吞吐率：27.17req/s] [内存消耗：1,349.92kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '9',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:18:33+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.218433s][吞吐率：4.58req/s] [内存消耗：2,166.45kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.078968s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.054617s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000514s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:18:35+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=7
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=7 [运行时间：0.131090s][吞吐率：7.63req/s] [内存消耗：2,125.20kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002999s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.050420s ]
+[ sql ] [ SQL ] DELETE FROM `admin`    WHERE  `a_id` = 7 [ RunTime:0.000422s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:18:38+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.128203s][吞吐率：7.80req/s] [内存消耗：2,165.02kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003196s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.051381s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000357s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:19:37+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.112892s][吞吐率：8.86req/s] [内存消耗：2,165.59kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002970s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.042349s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000477s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:19:39+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=8
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=8 [运行时间：0.215751s][吞吐率：4.63req/s] [内存消耗：2,113.98kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '8',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002917s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.042669s ]
+[ sql ] [ SQL ] DELETE FROM `admin`    WHERE  `a_id` = 8 [ RunTime:0.000431s ]
+[ error ] [0]致命错误: Call to undefined function app\index\controller\getLastSql()[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:33]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:19:59+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.111399s][吞吐率：8.98req/s] [内存消耗：2,164.39kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002742s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.042125s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000364s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:03+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.091870s][吞吐率：10.88req/s] [内存消耗：2,164.39kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003237s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035164s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000486s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:06+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=9
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=9 [运行时间：0.118858s][吞吐率：8.41req/s] [内存消耗：2,113.98kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '9',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012620s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.036284s ]
+[ sql ] [ SQL ] DELETE FROM `admin`    WHERE  `a_id` = 9 [ RunTime:0.000359s ]
+[ error ] [0]致命错误: Call to undefined function app\index\controller\getLastSql()[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:33]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:28+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=9
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=9 [运行时间：0.114712s][吞吐率：8.72req/s] [内存消耗：2,114.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '9',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003267s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.042397s ]
+[ sql ] [ SQL ] DELETE FROM `admin`    WHERE  `a_id` = 9 [ RunTime:0.000292s ]
+[ error ] [0]致命错误: Call to undefined function app\index\controller\getLastSql()[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:33]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:36+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.126313s][吞吐率：7.92req/s] [内存消耗：2,127.62kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003269s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.040469s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '698d51a19d8a121ce581499d7b701668' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000352s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:39+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.100118s][吞吐率：9.99req/s] [内存消耗：2,164.20kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002747s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.036482s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000408s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:41+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=10
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=10 [运行时间：0.097954s][吞吐率：10.21req/s] [内存消耗：2,114.11kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002814s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.033359s ]
+[ sql ] [ SQL ] DELETE FROM `admin`    WHERE  `a_id` = 10 [ RunTime:0.000449s ]
+[ error ] [0]致命错误: Call to undefined function app\index\controller\getLastSql()[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:33]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:48+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.091332s][吞吐率：10.95req/s] [内存消耗：2,121.92kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=10',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002816s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.033515s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000502s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:51+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.105255s][吞吐率：9.50req/s] [内存消耗：2,127.62kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002955s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.040818s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '698d51a19d8a121ce581499d7b701668' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000411s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:20:54+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.103446s][吞吐率：9.67req/s] [内存消耗：2,164.20kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003387s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035090s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000353s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:21:45+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.102650s][吞吐率：9.74req/s] [内存消耗：2,164.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002895s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.034001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000475s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:21:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/adddel.html?a_id=11
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddel.html?a_id=11 [运行时间：0.095823s][吞吐率：10.44req/s] [内存消耗：2,114.03kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDel[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002990s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.036042s ]
+[ sql ] [ SQL ] DELETE FROM `admin`    WHERE  `a_id` = 11 [ RunTime:0.000519s ]
+[ error ] [0]致命错误: Call to undefined function app\index\controller\getListSql()[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:33]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:21:54+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.091737s][吞吐率：10.90req/s] [内存消耗：2,127.54kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003074s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.036264s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '698d51a19d8a121ce581499d7b701668' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000444s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:21:57+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.128131s][吞吐率：7.80req/s] [内存消耗：2,164.13kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003415s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.045384s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000355s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:24:13+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.049202s][吞吐率：20.32req/s] [内存消耗：1,161.15kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:43]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:25:07+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.056967s][吞吐率：17.55req/s] [内存消耗：1,161.15kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php:43]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:25:20+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.323016s][吞吐率：3.10req/s] [内存消耗：2,275.75kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.074855s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.042171s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000416s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:25:23+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addupd.html?a_id=12
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12 [运行时间：0.041430s][吞吐率：24.14req/s] [内存消耗：1,351.32kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpd[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:29:46+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.142653s][吞吐率：7.01req/s] [内存消耗：2,165.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012736s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.034749s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000572s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:29:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addupd.html?a_id=12
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12 [运行时间：0.093900s][吞吐率：10.65req/s] [内存消耗：2,155.23kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpd[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003216s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.034458s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `a_id` = 12 LIMIT 1 [ RunTime:0.000547s ]
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addupd.html[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:32:55+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addupd.html?a_id=12
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12 [运行时间：0.141368s][吞吐率：7.07req/s] [内存消耗：2,279.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpd[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addupd.html [ array (
+  0 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002821s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035347s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `a_id` = 12 LIMIT 1 [ RunTime:0.000716s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:38:51+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addupd.html?a_id=12
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12 [运行时间：0.243441s][吞吐率：4.11req/s] [内存消耗：2,280.83kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpd[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addupd.html [ array (
+  0 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.081994s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.048714s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `a_id` = 12 LIMIT 1 [ RunTime:0.000566s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:38:59+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/addupdate.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupdate.html [运行时间：0.124778s][吞吐率：8.01req/s] [内存消耗：2,102.90kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482019',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpdate[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003380s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035483s ]
+[ error ] [0]缺少更新条件[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\db\Query.php:2187]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:03+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/addupdate.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupdate.html [运行时间：0.115293s][吞吐率：8.67req/s] [内存消耗：2,102.90kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482019',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpdate[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003081s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.038908s ]
+[ error ] [0]缺少更新条件[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\db\Query.php:2187]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:06+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/addupdate.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupdate.html [运行时间：0.130066s][吞吐率：7.69req/s] [内存消耗：2,102.90kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482019',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpdate[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004180s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.050805s ]
+[ error ] [0]缺少更新条件[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\db\Query.php:2187]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:39+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/addupdate.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupdate.html [运行时间：0.145897s][吞吐率：6.85req/s] [内存消耗：2,102.90kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '57',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482019',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpdate[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005532s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.057635s ]
+[ error ] [0]缺少更新条件[D:\phpStudy\WWW\tp5.1\thinkphp\library\think\db\Query.php:2187]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:41+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addupd.html?a_id=12
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12 [运行时间：0.150958s][吞吐率：6.62req/s] [内存消耗：2,280.67kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpd[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addupd.html [ array (
+  0 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004407s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.048633s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `a_id` = 12 LIMIT 1 [ RunTime:0.000781s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:42+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/addupdate.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupdate.html [运行时间：0.234789s][吞吐率：4.26req/s] [内存消耗：2,181.94kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '65',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+  'a_name' => 'root',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpdate[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004729s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.049485s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `a_name`='root',`a_email`='1275649332@qq.com',`a_tel`='13744482901'  WHERE  `a_id` = 12 [ RunTime:0.000741s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:46+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.135954s][吞吐率：7.36req/s] [内存消耗：2,277.36kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupdate.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005021s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.038017s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000512s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:47+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addupd.html?a_id=12
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12 [运行时间：0.135870s][吞吐率：7.36req/s] [内存消耗：2,168.77kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpd[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addupd.html [ array (
+  0 => 'row',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005308s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.053467s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `a_id` = 12 LIMIT 1 [ RunTime:0.000789s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:51+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/addupdate.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addupdate.html [运行时间：0.104379s][吞吐率：9.58req/s] [内存消耗：2,181.94kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addupdate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupd.html?a_id=12',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '65',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_id' => '12',
+  'a_name' => 'root',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482019',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addUpdate[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003060s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.036069s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `a_name`='root',`a_email`='1275649332@qq.com',`a_tel`='13744482019'  WHERE  `a_id` = 12 [ RunTime:0.000705s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:40:54+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.108833s][吞吐率：9.19req/s] [内存消耗：2,166.22kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupdate.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002922s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.037269s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000565s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:42:49+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.142764s][吞吐率：7.00req/s] [内存消耗：2,166.50kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupdate.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006666s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.057523s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000869s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:44:15+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.231409s][吞吐率：4.32req/s] [内存消耗：2,166.22kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/addupdate.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005885s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.071726s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001005s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:44:15+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/add.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/add.html [运行时间：0.064796s][吞吐率：15.43req/s] [内存消耗：1,361.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:44:24+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index.html
+[ log ] localhost/tp5.1/public/index.php/index/index/index.html [运行时间：0.061335s][吞吐率：16.30req/s] [内存消耗：1,453.74kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T19:44:31+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.099819s][吞吐率：10.02req/s] [内存消耗：2,129.54kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '111',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003634s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.035109s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , '698d51a19d8a121ce581499d7b701668' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000516s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:44:33+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.133179s][吞吐率：7.51req/s] [内存消耗：2,167.40kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004923s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.051189s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000717s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:44:36+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/index/admin/adddo.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/adddo.html [运行时间：0.139881s][吞吐率：7.15req/s] [内存消耗：2,129.54kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '64',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'root',
+  'a_pwd' => '',
+  'a_email' => '1275649332@qq.com',
+  'a_tel' => '13744482901',
+)
+[ info ] [ RUN ] app\index\controller\Admin->addDo[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004276s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.046901s ]
+[ sql ] [ SQL ] INSERT INTO `admin` (`a_name` , `a_pwd` , `a_email` , `a_tel`) VALUES ('root' , 'd41d8cd98f00b204e9800998ecf8427e' , '1275649332@qq.com' , '13744482901') [ RunTime:0.000671s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T19:44:38+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/admin/addlist.html
+[ log ] localhost/tp5.1/public/index.php/index/admin/addlist.html [运行时间：0.139047s][吞吐率：7.19req/s] [内存消耗：2,168.55kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'admin',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/index/admin/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Admin->addList[ D:\phpStudy\WWW\tp5.1\application\index\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\admin\addlist.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004137s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.051075s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.001022s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T20:13:09+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/index/index/index.html
+[ log ] localhost/tp5.1/public/index.php/index/index/index.html [运行时间：0.922558s][吞吐率：1.08req/s] [内存消耗：1,342.29kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5.1\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T20:13:20+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/add.html
+[ log ] localhost/tp5.1/public/index.php/user/index/add.html [运行时间：0.182974s][吞吐率：5.47req/s] [内存消耗：1,445.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->add[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/user\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T20:14:09+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/add.html
+[ log ] localhost/tp5.1/public/index.php/user/index/add.html [运行时间：0.144905s][吞吐率：6.90req/s] [内存消耗：1,486.63kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->add[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/user\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T20:21:19+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/add.html
+[ log ] localhost/tp5.1/public/index.php/user/index/add.html [运行时间：0.426991s][吞吐率：2.34req/s] [内存消耗：2,275.48kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->add[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/user\view\index\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.083174s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `classname` [ RunTime:0.065526s ]
+[ sql ] [ SQL ] SELECT * FROM `classname` [ RunTime:0.000457s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T20:21:29+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/add.html
+[ log ] localhost/tp5.1/public/index.php/user/index/add.html [运行时间：0.113063s][吞吐率：8.84req/s] [内存消耗：2,162.47kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->add[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/user\view\index\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011754s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `classname` [ RunTime:0.035720s ]
+[ sql ] [ SQL ] SELECT * FROM `classname` [ RunTime:0.000493s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T20:22:11+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/add.html
+[ log ] localhost/tp5.1/public/index.php/user/index/add.html [运行时间：0.100183s][吞吐率：9.98req/s] [内存消耗：2,162.47kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->add[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/user\view\index\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003951s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `classname` [ RunTime:0.036617s ]
+[ sql ] [ SQL ] SELECT * FROM `classname` [ RunTime:0.000492s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T20:27:20+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/add.html
+[ log ] localhost/tp5.1/public/index.php/user/index/add.html [运行时间：0.177863s][吞吐率：5.62req/s] [内存消耗：2,163.97kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->add[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\public/../application/user\view\index\add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005968s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `classname` [ RunTime:0.050555s ]
+[ sql ] [ SQL ] SELECT * FROM `classname` [ RunTime:0.000451s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T20:27:27+08:00 ] ::1 ::1 POST /tp5.1/public/index.php/user/index/adddo.html
+[ log ] localhost/tp5.1/public/index.php/user/index/adddo.html [运行时间：0.225146s][吞吐率：4.44req/s] [内存消耗：2,126.07kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'adddo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/user/index/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '119',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  's_name' => '李白',
+  's_sex' => '男',
+  's_age' => '22',
+  'c_id' => '1',
+  's_hobby' => 
+  array (
+    0 => 'html',
+    1 => 'php',
+    2 => 'JavaScript',
+  ),
+)
+[ info ] [ RUN ] app\user\controller\Index->addDo[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5.1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005700s ] mysql:dbname=admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.065913s ]
+[ sql ] [ SQL ] INSERT INTO `student` (`s_name` , `s_sex` , `s_age` , `c_id` , `s_hobby`) VALUES ('李白' , '男' , '22' , 1 , 'html,php,JavaScript') [ RunTime:0.001832s ]
+
+---------------------------------------------------------------
+[ 2018-12-28T20:27:30+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/addlist.html
+[ log ] localhost/tp5.1/public/index.php/user/index/addlist.html [运行时间：0.209532s][吞吐率：4.77req/s] [内存消耗：1,357.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/user/index/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-12-28T20:30:56+08:00 ] ::1 ::1 GET /tp5.1/public/index.php/user/index/addlist.html
+[ log ] localhost/tp5.1/public/index.php/user/index/addlist.html [运行时间：0.074673s][吞吐率：13.39req/s] [内存消耗：1,327.14kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'index',
+    2 => 'addlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/tp5.1/public/index.php/user/index/adddo.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Index->addList[ D:\phpStudy\WWW\tp5.1\application\user\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

@@ -1,0 +1,285 @@
+[ 2019-06-05T20:53:11+08:00 ] 172.17.20.138 47.103.99.224 GET /
+[ log ] ecshop.nichousha.xyz/ [运行时间：0.010895s][吞吐率：91.79req/s] [内存消耗：723.89kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'ecshop.nichousha.xyz',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/ecshoptp5/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/index/index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000359s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.000181s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T20:53:12+08:00 ] 172.17.20.138 47.103.99.224 GET /index.php
+[ log ] ecshop.nichousha.xyz/index.php [运行时间：0.012739s][吞吐率：78.50req/s] [内存消耗：724.57kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=7t76k9rq025dph3tabgdnfupo7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'ecshop.nichousha.xyz',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/ecshoptp5/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/index/index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.000213s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T20:53:18+08:00 ] 172.17.20.138 47.103.99.224 GET /?c=4e5e5d7364f443e28fbf0d3ae744a59a
+[ log ] ecshop.nichousha.xyz/?c=4e5e5d7364f443e28fbf0d3ae744a59a [运行时间：0.012646s][吞吐率：79.08req/s] [内存消耗：724.96kb] [文件加载：58]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=7t76k9rq025dph3tabgdnfupo7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'ecshop.nichousha.xyz',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'c' => '4e5e5d7364f443e28fbf0d3ae744a59a',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/wwwroot/default/ecshoptp5/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/public/../application/index/view/index/index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.000169s ]
+
+---------------------------------------------------------------
+[ 2019-06-05T20:53:18+08:00 ] 172.17.20.138 47.103.99.224 GET /index.php/explicit_not_exist_path
+[ log ] ecshop.nichousha.xyz/index.php/explicit_not_exist_path [运行时间：0.002082s][吞吐率：480.34req/s] [内存消耗：290.78kb] [文件加载：39]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'explicit_not_exist_path',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=7t76k9rq025dph3tabgdnfupo7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'ecshop.nichousha.xyz',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T20:53:18+08:00 ] 172.17.20.138 47.103.99.224 GET /admin.php
+[ log ] ecshop.nichousha.xyz/admin.php [运行时间：0.001593s][吞吐率：627.80req/s] [内存消耗：304.43kb] [文件加载：47]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=7t76k9rq025dph3tabgdnfupo7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'ecshop.nichousha.xyz',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-05T20:53:18+08:00 ] 172.17.20.138 47.103.99.224 GET /admin.php?mod=do&act=login
+[ log ] ecshop.nichousha.xyz/admin.php?mod=do&act=login [运行时间：0.001886s][吞吐率：530.25req/s] [内存消耗：304.81kb] [文件加载：47]
+[ info ] [ LANG ] /data/wwwroot/default/ecshoptp5/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=7t76k9rq025dph3tabgdnfupo7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'host' => 'ecshop.nichousha.xyz',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'mod' => 'do',
+  'act' => 'login',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/wwwroot/default/ecshoptp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

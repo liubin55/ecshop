@@ -1,0 +1,14 @@
+<table border="1">
+        <tr>
+            <td>标题</td>
+            <td>发布时间</td>
+        </tr>
+        {volist name="data" id="v"}
+        <tr>
+            <td>{$v.text_title}</td>
+            <td>{$v.create_time}</td>
+        </tr>
+        {/volist}
+    </table>
+    {$str}
+    <a href="http://www.ecshoptp5.com/admin.php/text/textadd.html">后台</a>

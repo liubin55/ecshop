@@ -1,0 +1,169 @@
+<?php
+    namespace app\admin\controller;
+    class Category extends Common
+    {
+        //分类添加
+        public function cateAdd()
+        {
+            if(request()->isPost()&&request()->isAjax()){
+                $data=input('post.');
+                //验证
+                $cate_validate=validate('Category');
+                $result=$cate_validate->scene('edit')->check($data);
+                if(!$result){
+                    falie($cate_validate->getError());
+                }
+                $cate_model=model('Category');
+                $res=$cate_model->save($data);
+                if($res){
+                    successly('添加成功');
+                }else{
+                    falie('添加失败');
+                }
+            }else{
+                $data=$this->categoryInfo();
+                $this->assign('data',$data);
+                return view();
+            }
+        }
+        //分类列表
+        public function cateList()
+        {
+            //父类的方法
+            $data=$this->categoryInfo();
+            $this->assign('data',$data);
+            return view();
+        }
+        //唯一性
+        public function cateUnique()
+        {
+            $cate_name=input('post.cate_name');
+            $type=input('post.type');
+            //添加唯一性 和修改是的唯一性
+            if($type==1){
+                $where=[
+                    'cate_name'=>$cate_name
+                ];
+            }else{
+                $cate_id=input('post.cate_id');
+                $where=[
+                    'cate_id'=>['neq',$cate_id],
+                    'cate_name'=>$cate_name
+                ];
+            }
+            $cate_model=model('Category');
+            $res=$cate_model->where($where)->find();
+            if($res){
+                echo "no";
+            }else{
+                echo "ok";
+            }
+        }
+        //删除
+        public function cateDel()
+        {
+            $cate_id=input('get.cate_id','','intval');
+            if(empty($cate_id)){
+                $this->error('请常规操作');
+            }
+            $cateWhere=[
+                'pid'=>$cate_id
+            ];
+            $cate_model=model('category');
+            $count1=$cate_model->where($cateWhere)->count();
+            if($count1>0){
+                $this->error("该分类下有子分类或商品，禁止删除");
+            }
+            $goodsWhere=[
+                'cate_id'=>$cate_id
+            ];
+            $goods_model=model('Goods');
+            $count2=$cate_model->where($goodsWhere)->count();
+            if($count2>0){
+                $this->error("该分类下有子分类或商品，禁止删除");
+            }
+           $res=$cate_model->where($goodsWhere)->delete();
+           if($res){
+               $this->success("删除成功",url('Category/cateList'));
+           }else{
+               $this->error('删除失败');
+           }
+        }
+        //即点即改
+        public function cateUpdateFile()
+        {
+            //接收值字段 id 值
+            $column=input('post.column');
+            $cate_id=input('post.cate_id');
+            $value=input('post.value');
+            //组成条件
+            $where=[
+                'cate_id'=>$cate_id
+            ];
+            $data=[
+                'cate_id'=>$cate_id,
+                $column=>$value
+            ];
+            $data['update_time']=time();
+            //判断修改做验证
+            $type=input('post.type');
+            if($type==1){
+                $cate_validate=validate('Category');
+                $result=$cate_validate->scene('edit')->check($data);
+                if(!$result){
+                    falie($cate_validate->getError());
+                }
+            }
+            $cate_model=model('Category');
+            $res=$cate_model->where($where)->update($data);
+            if($res){
+                successly('操作成功');
+            }else{
+                falie('操作失败');
+            }
+        }
+        //修改展示
+        public function cateUpdate()
+        {
+            $cate_id=input('get.cate_id','','intval');
+            if(empty($cate_id)){
+                $this->error('请常规操作');
+            }
+            //修改的单条数据
+            $where=[
+                'cate_id'=>$cate_id
+            ];
+            $cate_model=model('Category');
+            $cateInfo=$cate_model->where($where)->find();
+            //下拉列表的数据
+            $data=$this->categoryInfo();
+            if(empty($cateInfo)){
+                $this->error('请常规操作');
+            }
+            $this->assign('cateInfo',$cateInfo);
+            $this->assign('data',$data);
+            return view();
+        }
+        //修改执行
+        public function cateUpdateEdit()
+        {
+            $data=input('post.');
+            $where=[
+                'cate_id'=>$data['cate_id']
+            ];
+            $data['update_time']=time();
+            $cate_validate=validate('Category');
+            $result=$cate_validate->scene('edit')->check($data);
+            if(!$result){
+                falie($cate_validate->getError());
+            }
+            $cate_model=model('Category');
+            $res=$cate_model->where($where)->update($data);
+            if($res){
+                successly('修改成功');
+            }else{
+                falie('修改失败');
+            }
+        }
+    }
+?>

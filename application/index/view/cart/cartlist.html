@@ -1,0 +1,313 @@
+{include file="public/top" /}
+<script type="text/javascript" src="__STATIC__/index/js/n_nav.js"></script>
+<!--End Menu End--> 
+<div class="i_bg">  
+    <div class="content mar_20">
+    	<img src="__STATIC__/index/images/img1.jpg" />        
+    </div>
+    
+    <!--Begin 第一步：查看购物车 Begin -->
+    <div class="content mar_20">
+    	<table border="0" class="car_tab" style="width:1200px; margin-bottom:50px;" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="car_th"><input type="checkbox" id="checkAll"></td>
+            <td class="car_th" width="490">商品名称</td>
+            <td class="car_th" width="140">单价</td>
+            <td class="car_th" width="150">购买数量</td>
+            <td class="car_th" width="130">小计</td>
+            <td class="car_th" width="150">操作</td>
+          </tr>
+          <tbody id="box">
+          {volist name="cartInfo" id="v"}
+          {if condition="$key%2==0"}
+            {assign name="car_tr" value=""}
+          {else /}
+            {assign name="car_tr" value="car_tr"}
+          {/if}
+          <tr class="{$car_tr}" goods_num="{$v.goods_num}" goods_id="{$v.goods_id}">
+            <td ><input type="checkbox" class="checkAdd"></td>
+            <td>
+            	<div class="c_s_img">
+                    <img src="__STATIC__/../uploads/goodsLogo/{$v.goods_img}" width="73" height="73" />
+                </div>
+                {$v.goods_name}
+            </td>
+            <td align="center">
+                ￥<span style="text-decoration-line: line-through">{$v.market_price}</span><br>
+                ￥<span>{$v.self_price}</span>
+            </td>
+            <td align="center" >
+            	<div class="c_num">
+                    <input type="button"  class="car_btn_1" />
+                	<input type="text" value="{$v.buy_number}" class="car_ipt buy_number" />  
+                    <input type="button"  class="car_btn_2" />
+                </div>
+            </td>
+            <td align="center" style="color:#ff4e00;" class="tolato">
+                ￥<span>{$v.self_price*$v.buy_number}</span>
+            </td>
+            <td align="center">
+                <a href="javascript:;" class="del">删除</a>&nbsp;
+                {if condition="$Think.session.userInfo eq ''"}&nbsp;
+                <a href="javascript:;" class="praise">加入收藏</a>
+                {else/}
+                {if condition="in_array($v['goods_id'],$goods_id)"}
+                <a href="javascript:;" class="praise">已收藏</a>
+                {else /}
+                <a href="javascript:;" class="praise">加入收藏</a>
+                {/if}
+                {/if}
+            </td>
+          </tr>
+          {/volist}
+        </tbody>
+          <tr height="70">
+          	<td colspan="6" style="font-family:'Microsoft YaHei'; border-bottom:0;">
+            	<label class="r_rad">
+                    <input type="button" id="clear" value="清空购物车" />
+                </label>
+                <label class="r_rad">
+                    <input type="button" value="加入收藏">
+                </label>
+                <span class="fr">
+                    商品总价：<b style="font-size:22px; color:#ff4e00;">
+                        ￥<span id="priceNum">0</span>
+                    </b>
+                </span>
+            </td>
+          </tr>
+          <tr valign="top" height="150">
+          	<td colspan="6" align="right">
+                <a href="{:url('Index/index')}"><img src="__STATIC__/index/images/buy1.gif" /></a>&nbsp; &nbsp; 
+                <a href="javascript:;" id="cartCount"><img src="__STATIC__/index/images/buy2.gif" /></a>
+            </td>
+          </tr>
+        </table>
+        
+    </div>
+	<!--End 第一步：查看购物车 End--> 
+    <script>
+        $(function(){
+            layui.use(['form','layer'],function(){
+                var layer=layui.layer;
+                var form=layui.form;
+                //点击+
+                $(document).on('click','.car_btn_2',function(){
+                    var _this=$(this);
+                    var goods_num=_this.parents('tr').attr('goods_num');
+                    var goods_id=_this.parents('tr').attr('goods_id');
+                    var buy_number=parseInt(_this.prev('input').val());
+                    if(buy_number>=goods_num){
+                        _this.prop("diabled",true);
+                    }else{
+                        buy_number+=1;
+                        _this.prev('input').val(buy_number)   
+                    }
+                    //传值修改商品数量
+                    $.ajax({
+                        type: "POST",
+                        url: "{:url('Cart/changePrice')}",
+                        data: {goods_id:goods_id,buy_number:buy_number},
+                        async:false,
+                        dataType:'json'
+                        }).done(function(res){
+                           
+                        });
+                    //修改小计
+                    selfPrice(_this,buy_number);
+                    //修改总价
+                    priceNum();
+
+                })
+                //修改小计
+                function selfPrice(_this,buy_number){
+                    var self_price=parseInt(_this.parents('td').prev('td').find('span').last().text());
+                    var price=self_price*buy_number;
+                    _this.parents('td').next('td').find('span').text(price);
+                }
+                //点击－
+                $(document).on('click','.car_btn_1',function(){
+                    var _this=$(this);
+                    var buy_number=parseInt(_this.next('input').val());
+                    var goods_id=_this.parents('tr').attr('goods_id');
+                    if(buy_number<=1){
+                        _this.prop("diabled",true);
+                    }else{
+                        buy_number-=1;
+                        _this.next('input').val(buy_number);
+                    }
+                    //传值修改商品数量
+                    $.ajax({
+                        type: "POST",
+                        url: "{:url('Cart/changePrice')}",
+                        data: {goods_id:goods_id,buy_number:buy_number},
+                        async:false,
+                        dataType:'json'
+                        }).done(function(res){
+                           
+                        });
+                    //修改小计
+                    selfPrice(_this,buy_number);
+                    //修改总价
+                    priceNum();
+                })
+                //失去焦点
+                $(document).on('blur','.buy_number',function(){
+                    var _this=$(this);
+                    var goods_id=_this.parents('tr').attr('goods_id');
+                    var goods_num=_this.parents('tr').attr('goods_num');
+                    var buy_number=parseInt(_this.val());
+                    var reg=/^[1-9]\d*$/;
+                    if(!reg.test(buy_number)){
+                        _this.val(1);
+                    }else if(buy_number>=goods_num){
+                        _this.val(goods_num)
+                    }else if(buy_number<=1){
+                        _this.val(1)
+                    }else{
+                        _this.val(buy_number)
+                    }
+                    //传值修改商品数量
+                    buy_number=parseInt(_this.val());
+                    $.ajax({
+                        type: "POST",
+                        url: "{:url('Cart/changePrice')}",
+                        data: {goods_id:goods_id,buy_number:buy_number},
+                        async:false,
+                        dataType:'json'
+                        }).done(function(res){
+
+                        });
+                    //修改小计
+                    selfPrice(_this,buy_number);
+                    //修改总价
+                    priceNum();
+                })
+                //点击删除
+                $(document).on('click','.del',function(){
+                    var _this=$(this);
+                    var goods_id=$(this).parents('tr').attr('goods_id');
+                    layer.confirm('你确定要删除吗',{icon:3,title:'提示'},function(index){
+                        $.post(
+                            "{:url('Cart/cartDel')}",
+                            {goods_id:goods_id},
+                            function(res){
+                                layer.msg(res.font,{icon:res.code}) 
+                                if(res.code==1){
+                                    _this.parents('tr').remove();
+                                    priceNum()
+                                    layer.close(index);
+                                }
+                            },'json'
+                        )
+                    })
+                })
+                //点击收藏
+                $(document).on('click','.praise',function(){
+                    var  _this=$(this);
+                    var goods_id=_this.parents('tr').attr('goods_id');
+                    $.post(
+                        "{:url('Cart/cartHide')}",
+                        {goods_id:goods_id},
+                        function(res){
+                            layer.msg(res.font,{icon:res.code})
+                            if(res.code==1){
+                                _this.text("已收藏");
+                                _this.prop("diabled",true);
+                            }
+                        },'json'
+                    )
+                })
+                //点击全选
+                $(document).on('click','#checkAll',function(){
+                    var check=$("#checkAll").prop('checked');
+                    $(".checkAdd").prop('checked',check);
+                    //总价
+                    priceNum();
+                })
+                //点击单选
+                $(document).on('click','.checkAdd',function(){
+                    //商品总价
+                    priceNum();
+                })
+                //清空购物车
+                $(document).on('click','#clear',function(){
+                    layer.confirm('你确定要清空吗',{icon:3,title:'提示'},function(index){
+                        $.post(
+                            "{:url('Cart/cartDelAll')}",
+                            function(res){
+                                layer.msg(res.font,{icon:res.code});
+                                if(res.code==1){
+                                    $("#box").empty();
+                                    //商品总价
+                                    priceNum();
+                                }
+                            },'json'
+                        )
+                        layer.close(index);
+                    })
+                })
+                //修改总价
+                function priceNum(){
+                    //获取所有复选框
+                    var _check=$(".checkAdd");
+                    var goods_id='';
+                    //判断复选框是否选择中  拿选中的id
+                    _check.each(function(index){
+                        if($(this).prop('checked')==true){
+                            goods_id+=$(this).parents('tr').attr('goods_id')+',';
+                        }
+                    })
+                    goods_id=goods_id.substr(0,goods_id.length-1);
+                    $.post(
+                        "{:url('Cart/getPriceNum')}",
+                        {goods_id:goods_id},
+                        function(res){
+                            console.log(res);
+                            $("#priceNum").text(res);
+                        }
+                    )
+                }
+                //确认结算
+                $(document).on('click','#cartCount',function(){
+                    var res=checkLogin();
+                    if(res==false){
+                        layer.msg("请登录后结算",{icon:2},function(){
+                            location.href="{:url('Login/login')}"
+                        })
+                    }else{
+                        //获取所有复选框
+                        var _check=$(".checkAdd");
+                        var goods_id='';
+                        //判断复选框是否选择中  拿选中的id
+                        _check.each(function(index){
+                            if($(this).prop('checked')==true){
+                                goods_id+=$(this).parents('tr').attr('goods_id')+',';
+                            }
+                        })
+                        goods_id=goods_id.substr(0,goods_id.length-1);
+                        if(goods_id==''){
+                            layer.msg("请选择需要结算的商品");
+                            return false;
+                        }
+                        location.href="{:url('Order/cartCount')}?goods_id="+goods_id;
+                    }
+                })
+
+                //检测登录
+                function checkLogin(){
+                    var status;
+                    $.ajax({
+                        type:'post',
+                        url:"{:url('Order/checkLogin')}",
+                        async:false,
+                        dataType:'json'
+                    }).done(function(res){
+                        status=res;
+                    })
+                    return status;
+                }
+            })
+        })
+    </script>
+    

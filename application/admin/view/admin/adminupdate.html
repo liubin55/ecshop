@@ -1,0 +1,90 @@
+<div style="padding: 15px ;width:600px">
+    <form class="layui-form">
+        <input type="hidden" name="admin_id" id="admin_id" value="{$data.admin_id}">
+        <div class="layui-form-item" >
+            <label class="layui-form-label">管理员名称</label>
+            <div class="layui-input-block">
+                    <!-- lay-verify="required|checkName" -->
+            <input type="text" name="admin_name" value="{$data.admin_name}" lay-verify="required|checkName"  autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">管理员电话</label>
+            <div class="layui-input-block">
+                    <!-- lay-verify="required|phone" -->
+            <input type="text" name="admin_tel" value="{$data.admin_tel}"  lay-verify="required|phone" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">管理员邮箱</label>
+            <div class="layui-input-block">
+                    <!-- lay-verify="required|email" -->
+            <input type="text" name="admin_email" value="{$data.admin_email}"  lay-verify="required|email" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">立即修改</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+    </form>
+</div>
+        <script>
+            //页面加载
+            $(function(){
+            layui.use(['form','layer'], function(){
+            var form = layui.form;
+            var layer=layui.layer;
+            //验证名字
+            var name_falg;
+            form.verify({
+                checkName:function(value, item){ //value：表单的值、item：表单的DOM对象
+                var reg=/^[a-z_]\w{3,11}$/;
+                    if(!reg.test(value)){
+                        return "名称4-12位数字、字母和下划线组成，非数字开头";
+                    }else{
+                        var admin_id=$("#admin_id").val();
+                        $.ajax({        //唯一性验证
+                                type:'post',
+                                url:"{:url('admin/adminUnique')}",
+                                data:{admin_name:value,type:2,admin_id:admin_id},
+                                async:false,
+                        }).done(function(res){
+                            if(res=="no"){
+                                    name_falg="管理员已存在";
+                            }else{
+                                    name_falg='';
+                            }
+                        });
+                        //返回错误信息，只能返回
+                        if(name_falg!=''){
+                                return name_falg; 
+                        }
+                    }
+                }
+            });  
+        
+            //获取表单数据  监听表单提交
+            form.on('submit(formDemo)', function(data){
+                $.post(
+                    "{:url('admin/adminUpdate')}",
+                    data.field,
+                    function(res){
+                        if(res.code==2){
+                            layer.msg(res.font,{icon:res.code});
+                        }else{
+                            layer.msg(res.font,{icon:res.code},function(index){
+                                var index = layer.load(0, {time: 1000});
+                                location.href="{:url('Admin/adminList')}";
+                                layer.close(index);  
+                            })
+                        }
+                    },'json'
+                );
+                return false;//阻止提交
+            });                  
+             });
+         });
+         </script>

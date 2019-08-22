@@ -1,0 +1,27 @@
+<!--Begin 楼层 Begin-->
+<div cate_id="{$foolInfo.topCate.cate_id}">
+    <div class="i_t mar_10">
+        <span class="floor_num"><span class="floorNum">{$floorNum}</span>F</span>
+        <span class="fl">{$foolInfo.topCate.cate_name}</span> 
+        {volist name="$foolInfo.sonCate" id="v"}               
+        <span class="i_mores fr"><a href="#">{$v.cate_name}</a>&nbsp; &nbsp; &nbsp; </span>
+        {/volist}
+    </div>
+    <div class="content">
+
+        <div class="fresh_mid">
+            <ul>
+                {volist name="$foolInfo.goodsInfo" id="v"}
+                <li>
+                    <div class="name"><a href="{:url('Goods/goodsEdital')}?goods_id={$v.goods_id}">{$v.goods_name}</a></div>
+                    <div class="price">
+                        <font>￥<span>{$v.self_price}</span></font> &nbsp; {$v.goods_score}
+                    </div>
+                    <div class="img"><a href="{:url('Goods/goodsEdital')}?goods_id={$v.goods_id}"><img src="__STATIC__/../uploads/goodsLogo/{$v['goods_img']}" width="185" height="155" /></a></div>
+                </li> 
+                {/volist}                                                          
+            </ul>
+        </div>
+
+    </div>  
+</div>

@@ -1,0 +1,112 @@
+<div style="padding: 15px ;width:600px">
+<form class="layui-form">
+        <div class="layui-form-item" >
+                <label class="layui-form-label">管理员名称</label>
+                <div class="layui-input-block">
+                        <!-- lay-verify="required|checkName" -->
+                <input type="text" name="admin_name" required lay-verify="required|checkName"  autocomplete="off" class="layui-input">
+                </div>
+        </div>
+        <div class="layui-form-item">
+                <label class="layui-form-label">管理员密码</label>
+                <div class="layui-input-block">
+                        <!-- lay-verify="required|checkPwd" -->
+                <input type="password" name="admin_pwd" required  lay-verify="required|checkPwd" autocomplete="off" class="layui-input">
+                </div>
+        </div>
+        <div class="layui-form-item">
+                <label class="layui-form-label">管理员电话</label>
+                <div class="layui-input-block">
+                        <!-- lay-verify="required|phone" -->
+                <input type="text" name="admin_tel" required  lay-verify="required|phone" autocomplete="off" class="layui-input">
+                </div>
+        </div>
+        <div class="layui-form-item">
+                <label class="layui-form-label">管理员邮箱</label>
+                <div class="layui-input-block">
+                        <!-- lay-verify="required|email" -->
+                <input type="text" name="admin_email" required  lay-verify="required|email" autocomplete="off" class="layui-input">
+                </div>
+        </div>
+        
+        <div class="layui-form-item">
+                <div class="layui-input-block">
+                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+        </div>
+ </form>
+       
+ </div>
+<script>
+    //页面加载
+    $(function(){
+    layui.use(['form','layer'], function(){
+    var form = layui.form;
+    var layer=layui.layer;
+    //验证名字
+    var name_falg;
+    form.verify({
+        checkName:function(value, item){ //value：表单的值、item：表单的DOM对象
+        var reg=/^[a-z_]\w{3,11}$/;
+            if(!reg.test(value)){
+                return "名称4-12位数字、字母和下划线组成，非数字开头";
+            }else{
+                $.ajax({        //唯一性验证
+                        type:'post',
+                        url:"{:url('admin/adminUnique')}",
+                        data:{admin_name:value,type:1},
+                        async:false,
+                }).done(function(res){
+                        if(res=="no"){
+                                name_falg="管理员已存在";
+                        }else{
+                                name_falg='';
+                        }
+                });
+                //返回错误信息，只能返回
+                if(name_falg!=''){
+                        return name_falg; 
+                }
+            }
+        },
+            //验证密码
+            checkPwd:function(value, item){ //value：表单的值、item：表单的DOM对象
+            var reg=/.{6,12}$/;
+                    if(!reg.test(value)){
+                            return "密码6-12位组成";
+                    }
+            }
+  
+    });  
+
+    //获取表单数据  监听表单提交
+    form.on('submit(formDemo)', function(data){
+        $.post(
+            "{:url('admin/adminAdd')}",
+            data.field,
+            function(res){
+                if(res.code==1){
+                        //跳转按钮
+                     layer.open({
+                        content: '添加成功'
+                        ,btn: ['再次添加', '跳转至列表页']
+                        ,yes: function(index, layero){
+                        location.href="{:url('admin/adminAdd')}";
+                        }
+                        ,btn2: function(index, layero){
+                        location.href="{:url('admin/adminList')}";
+                        }
+                        });    
+                }else{
+                //错误提示
+                   layer.msg(res.font, {icon: res.code});
+                }
+            },'json'
+        );
+        return false;//阻止提交
+    });                  
+     });
+ });
+ </script>
+ 

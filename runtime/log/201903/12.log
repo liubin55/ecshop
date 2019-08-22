@@ -1,0 +1,495 @@
+[ 2019-03-12T08:28:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.ecshoptp5.com/ [运行时间：1.685711s][吞吐率：0.59req/s] [内存消耗：2,592.02kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'close',
+  'host' => 'www.ecshoptp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216950s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.070072s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.063591s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.001504s ]
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:02+08:00 ] ::1 ::1 GET /1/ecshoptp5/public/
+[ log ] localhost/1/ecshoptp5/public/ [运行时间：1.561442s][吞吐率：0.64req/s] [内存消耗：2,624.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartCount',
+  4 => 'cartInfo',
+  5 => 'priceNum',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124071s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.070175s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.003094s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.042698s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.003408s ]
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:06+08:00 ] ::1 ::1 GET /1/ecshoptp5/public/index.php/hide/hidelist.html
+[ log ] localhost/1/ecshoptp5/public/index.php/hide/hidelist.html [运行时间：0.202828s][吞吐率：4.93req/s] [内存消耗：2,364.96kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'hide',
+    2 => 'hidelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Hide->hideList[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Hide.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\hide\hidelist.html [ array (
+  0 => 'controllerName',
+  1 => 'hideInfo',
+  2 => 'hideCount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004787s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_hide` [ RunTime:0.054112s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_hide` `h` INNER JOIN `shop_goods` `g` ON `h`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = null  AND `status` = 1 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `shop_hide` `h` INNER JOIN `shop_goods` `g` ON `h`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = null  AND `status` = 1 LIMIT 1 [ RunTime:0.003511s ]
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:09+08:00 ] ::1 ::1 GET /1/ecshoptp5/public/index.php/login/login.html
+[ log ] localhost/1/ecshoptp5/public/index.php/login/login.html [运行时间：0.136437s][吞吐率：7.33req/s] [内存消耗：1,568.15kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/public/index.php/hide/hidelist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->Login[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\login\login.html [ array (
+  0 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:13+08:00 ] ::1 ::1 POST /1/ecshoptp5/public/index.php/login/login.html
+[ log ] localhost/1/ecshoptp5/public/index.php/login/login.html [运行时间：0.236789s][吞吐率：4.22req/s] [内存消耗：2,323.51kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/public/index.php/login/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '61',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1275649332@qq.com',
+  'user_pwd' => '111111',
+  'remember_me' => 'false',
+)
+[ info ] [ RUN ] app\index\controller\Login->Login[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005487s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_users` [ RunTime:0.059826s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_users` WHERE  `user_email` = '1275649332@qq.com'  OR `user_tel` = '1275649332@qq.com' LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] UPDATE `shop_users`  SET `error_num`=0,`error_time`=NULL  WHERE  `user_id` = 1 [ RunTime:0.003426s ]
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:16+08:00 ] ::1 ::1 GET /1/ecshoptp5/public/index.php/index/index.html
+[ log ] localhost/1/ecshoptp5/public/index.php/index/index.html [运行时间：0.194000s][吞吐率：5.15req/s] [内存消耗：2,619.87kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/public/index.php/login/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\index\index.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartInfo',
+  4 => 'priceNum',
+  5 => 'cartCount',
+  6 => 'foolInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006346s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.033702s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.038948s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_cart` WHERE  `user_id` = 1 ORDER BY `create_time`  desc [ RunTime:0.001888s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.032093s ]
+[ sql ] [ SQL ] SELECT `g`.`goods_id`,`goods_name`,`self_price`,`market_price`,`goods_img`,`buy_number`,`goods_num` FROM `shop_goods` `g` INNER JOIN `shop_cart` `c` ON `g`.`goods_id`=`c`.`goods_id` WHERE  `g`.`goods_id` IN ('5','89','98','45','47','6','6','54','89','54','6','19','8','46','42','9','10','83','34')  AND `is_up` = 1  AND `user_id` = 1  AND `cart_status` = 1 ORDER BY field(c.goods_id,5,89,98,45,47,6,6,54,89,54,6,19,8,46,42,9,10,83,34) [ RunTime:0.004327s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `pid` = 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `cate_id` IN (5,13,14,6,15) [ RunTime:0.000608s ]
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:18+08:00 ] ::1 ::1 GET /1/ecshoptp5/public/index.php/cart/cartlist.html
+[ log ] localhost/1/ecshoptp5/public/index.php/cart/cartlist.html [运行时间：0.332757s][吞吐率：3.01req/s] [内存消耗：2,533.11kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/public/index.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Cart->cartList[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\cart\cartlist.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartInfo',
+  4 => 'priceNum',
+  5 => 'cartCount',
+  6 => 'goods_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004342s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.031555s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.040383s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_cart` WHERE  `user_id` = 1 ORDER BY `create_time`  desc [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.027230s ]
+[ sql ] [ SQL ] SELECT `g`.`goods_id`,`goods_name`,`self_price`,`market_price`,`goods_img`,`buy_number`,`goods_num` FROM `shop_goods` `g` INNER JOIN `shop_cart` `c` ON `g`.`goods_id`=`c`.`goods_id` WHERE  `g`.`goods_id` IN ('5','89','98','45','47','6','6','54','89','54','6','19','8','46','42','9','10','83','34')  AND `is_up` = 1  AND `user_id` = 1  AND `cart_status` = 1 ORDER BY field(c.goods_id,5,89,98,45,47,6,6,54,89,54,6,19,8,46,42,9,10,83,34) [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_hide` [ RunTime:0.028530s ]
+[ sql ] [ SQL ] SELECT `goods_id` FROM `shop_hide` WHERE  `user_id` = 1 [ RunTime:0.000342s ]
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:20+08:00 ] ::1 ::1 POST /1/ecshoptp5/public/index.php/cart/getpricenum.html
+[ log ] localhost/1/ecshoptp5/public/index.php/cart/getpricenum.html [运行时间：0.090838s][吞吐率：11.01req/s] [内存消耗：2,294.17kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'getpricenum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/public/index.php/cart/cartlist.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => '*/*',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Cart->getPriceNum[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Cart.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004920s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_cart` [ RunTime:0.038519s ]
+[ sql ] [ SQL ] SELECT `self_price`,`buy_number` FROM `shop_cart` `c` INNER JOIN `shop_goods` `g` ON `c`.`goods_id`=`g`.`goods_id` WHERE  `user_id` = 1  AND `g`.`goods_id` IN ('5')  AND `cart_status` = 1 [ RunTime:0.000618s ]
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:20+08:00 ] ::1 ::1 POST /1/ecshoptp5/public/index.php/order/checklogin.html
+[ log ] localhost/1/ecshoptp5/public/index.php/order/checklogin.html [运行时间：0.046577s][吞吐率：21.47req/s] [内存消耗：1,497.49kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/public/index.php/cart/cartlist.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Order->checkLogin[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Order.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-03-12T20:12:21+08:00 ] ::1 ::1 GET /1/ecshoptp5/public/index.php/order/cartcount.html?goods_id=5
+[ log ] localhost/1/ecshoptp5/public/index.php/order/cartcount.html?goods_id=5 [运行时间：0.438278s][吞吐率：2.28req/s] [内存消耗：2,685.40kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'cartcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ECS[visit_times]=4; PHPSESSID=fk1mhgjr7g1ieb92cndi3eu4be',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/1/ecshoptp5/public/index.php/cart/cartlist.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Order->cartCount[ D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\application\index\controller\Order.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\1\ecshoptp5\public/../application/index\view\order\cartcount.html [ array (
+  0 => 'controllerName',
+  1 => 'getCateInfo',
+  2 => 'Info',
+  3 => 'cartInfo',
+  4 => 'priceNum',
+  5 => 'cartCount',
+  6 => 'addressInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005703s ] mysql:dbname=shop;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_category` [ RunTime:0.026307s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_navshow` = 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_category` WHERE  `cate_show` = 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.035234s ]
+[ sql ] [ SQL ] SELECT `g`.`goods_id`,`goods_name`,`self_price`,`market_price`,`goods_img`,`buy_number`,`goods_num` FROM `shop_goods` `g` INNER JOIN `shop_cart` `c` ON `g`.`goods_id`=`c`.`goods_id` WHERE  `g`.`goods_id` IN ('5')  AND `is_up` = 1  AND `user_id` = 1  AND `cart_status` = 1 ORDER BY field(c.goods_id,5) [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_address` [ RunTime:0.043817s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_address` WHERE  `user_id` = 1 [ RunTime:0.000948s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,140 @@
+{include file="public/usertop" /}
+<!--End Header End--> 
+<div class="i_bg bg_color">
+<!--Begin 用户中心 Begin -->
+<div class="m_content">
+{include file="public/userleft" /}
+    <div class="m_right">
+        <p></p>
+        <div class="mem_tit">
+            <a href="#"><img src="__STATIC__/index/images/add_ad.gif" /></a>
+        </div>
+        <table border="0" class="add_tab" style="width:930px;"  cellspacing="0" cellpadding="0">
+            <tr>
+            <td width="135" align="right">配送地区</td>
+            <td colspan="3" style="font-family:'宋体';">
+                <select class="province" id="province">
+                    <option value="" selected="selected">请选择...</option>
+                    {volist name="provinceInfo" id="v"}
+                    {if condition="$data['province'] eq $v['id']"}
+                    <option value="{$v.id}" selected>{$v.name}</option>
+                    {else/}
+                    <option value="{$v.id}">{$v.name}</option>
+                    {/if}
+                    {/volist}
+                </select>
+                <select class="province" id="city">
+                    <option value="" selected="selected">请选择...</option>
+                    {volist name="cityInfo" id="v"}
+                    {if condition="$data['city'] eq $v['id']"}
+                    <option value="{$v.id}" selected>{$v.name}</option>
+                    {else/}
+                    <option value="{$v.id}">{$v.name}</option>
+                    {/if}
+                    {/volist}
+                </select>
+                <select class="province" id="area">
+                    <option value="" selected="selected">请选择...</option>
+                    {volist name="areaInfo" id="v"}
+                    {if condition="$data['area'] eq $v['id']"}
+                    <option value="{$v.id}" selected>{$v.name}</option>
+                    {else/}
+                    <option value="{$v.id}">{$v.name}</option>
+                    {/if}
+                    {/volist}
+                </select>
+                （必填）
+            </td>
+            </tr>
+            <tr>
+            <td align="right">收货人姓名</td>
+            <td style="font-family:'宋体';"><input type="text"  value="{$data.address_name}" id="address_name" />（必填）</td>
+            <td align="right">联系方式</td>
+            <td style="font-family:'宋体';"><input type="text"  value="{$data.address_tel}"  id="address_tel" />（必填）</td>
+            </tr>
+            <tr>
+            <td align="right">详细地址</td>
+            <td style="font-family:'宋体';"><input type="text"  value="{$data.address_desc}"  id="address_desc" />（必填）</td>
+            <td align="right">邮政编码</td>
+            <td style="font-family:'宋体';"><input type="text"  value="{$data.address_mail}"  id="address_mail" /></td>
+            </tr>
+            <tr>
+                {if condition="$data['address_default'] eq 1"}
+                <td colspan="4">是否设置为默认<input type="checkbox" checked></td>
+                {else/}
+                <td colspan="4">是否设置为默认<input type="checkbox"></td>
+                {/if}
+            </tr>
+            <input type="hidden" value="{$data.address_id}" id="address_id">
+        </table>
+        <p align="right">
+            <a href="javascript:;" class="add_b">修改</a>
+        </p> 
+        
+
+        
+    </div>
+</div>
+<!--End 用户中心 End--> 
+<script>
+    $(function(){
+        layui.use('layer',function(){
+            var layer=layui.layer;
+            //三级联动
+            $(document).on('change','.province',function(){
+                var _this=$(this);
+                var id= _this.val();
+                var _option="<option value=''>--请选择--</option>";
+                _this.nextAll('select').html(_option);
+                $.post(
+                    "{:url('Address/addressAjax')}",
+                    {id:id},
+                    function(res){
+                        if(res.code==1){
+                            for(var i in res['areaInfo']){
+                                _option+="<option value="+res['areaInfo'][i]['id']+">"+res['areaInfo'][i]['name']+"</option>"
+                            }
+                            _this.next('select').html(_option);
+                            _this.nextAll('select');
+                        }else{
+                            layer.msg(res.font,{icon:res.code});
+                        }
+                    },'json'
+                )
+            })
+            //添加
+            $(document).on('click','.add_b',function(){
+                var obj={};
+                obj.province=$("#province").val();
+                obj.city=$("#city").val();
+                obj.area=$("#area").val();
+                obj.address_name=$("#address_name").val();
+                obj.address_tel=$("#address_tel").val();
+                obj.address_desc=$("#address_desc").val();
+                obj.address_mail=$("#address_mail").val();
+                obj.address_id=$("#address_id").val();
+                var address_default=$(":checkbox").prop('checked');
+                if(address_default==true){
+                    address_default=1;
+                }else{
+                    address_default=2;
+                }
+                obj.address_default=address_default;
+                if(obj.province==''){
+                    layer.msg("请选择地址");
+                    return false;
+                }
+                $.post(
+                    "{:url('Address/addressUpdate')}",
+                    obj,
+                    function(res){
+                        layer.msg(res.font,{icon:res.code,time:2000},function(){
+                            location.href="{:url('Address/addressAdd')}"
+                        });
+                    },'json'
+                )
+            })
+        })
+    })
+</script>
+   
